@@ -10,6 +10,10 @@ public class AlfredQuotes {
         return String.format("Hello, %s. Lovely to see you", name);
     }
 
+    public String guestGreeting(String name, String dayPeriod) {
+        return String.format("Good %s, %s. Lovely to see you", dayPeriod, name);
+    }
+
     public String guestGreeting() {
       return "Hello fine guest. Lovelt to see you";
     }
